@@ -15,5 +15,5 @@ pnpm run dev
 npm run dev
 ```
 
-Open [http://localhost:400](http://localhost:400) dengan postman ataupun insomnia
+Open [http://localhost:4000](http://localhost:4000) dengan postman ataupun insomnia
 
