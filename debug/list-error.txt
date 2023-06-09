@@ -1,0 +1,7 @@
+-Terdapat error di line 23 dimana error tersebut dikarenakan tidak ada koma setelah ada data sebelumnya
+-Terdapat error di line 249 dimana error tersebut dikarenakan kurang tanda petik ganda
+-Terdapat error di line 437 dimana error tersebut dikarenakan tidak ada data/value setelah membuat property ValueAsString
+-Terdapat error di line 540 dimana error tersebut dikarenakan
+tidak ada index ketika mengakses sebuah array
+-Terdapat error di line 567 dimana error tersebut dikarenakan fungsi compareDeep2 tidak memberikan paramater pada fungsi tersebut
+-Terdapat error di line 538 dimana error tersebut dikarenakan salah mengakses property yang terdapat di raw data
