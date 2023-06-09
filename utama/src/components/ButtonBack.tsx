@@ -10,8 +10,7 @@ export const ButtonBack = () => {
     <Button
       leftIcon={<ArrowBackIcon />}
       colorScheme="teal"
-      position="absolute"
-      top={10}
+      mt="10"
       onClick={route.back}
     >
       Back

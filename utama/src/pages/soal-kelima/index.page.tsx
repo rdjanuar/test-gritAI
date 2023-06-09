@@ -11,7 +11,7 @@ const Kelima = () => {
   return (
     <>
       <ButtonBack />
-      <Center justifyContent="center" h="100vh">
+      <Center justifyContent="center" h="80vh">
         <Card>
           <DynamicForm />
         </Card>

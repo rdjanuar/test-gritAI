@@ -1,4 +1,4 @@
-import { Button, Container, Text } from "@chakra-ui/react";
+import { Button, Container, Text, VStack } from "@chakra-ui/react";
 import { useState } from "react";
 import { ButtonBack } from "~/components";
 import { hash } from "~/utils";
@@ -13,13 +13,15 @@ const Ketiga = () => {
   };
 
   return (
-    <Container maxW="container.xl">
+    <>
       <ButtonBack />
-      <Button mt={28} colorScheme="red" onClick={handleHash}>
-        Generate Hash
-      </Button>
-      <Text>sha256: {value}</Text>
-    </Container>
+      <VStack align="start" mt={10}>
+        <Button colorScheme="red" onClick={handleHash}>
+          Generate Hash
+        </Button>
+        <Text>sha256: {value}</Text>
+      </VStack>
+    </>
   );
 };
 
