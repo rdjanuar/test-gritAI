@@ -564,7 +564,7 @@
       }
 
       function myFunction() {
-        var tt = rawData.attributes.map((value) => compareDeep2(value, value));
+        var tt = rawData.attributes.sort(compareDeep2)
         console.log(tt);
       }
     </script>
